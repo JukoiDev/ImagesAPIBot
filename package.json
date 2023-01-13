@@ -1,0 +1,27 @@
+{
+  "name": "imagesapibot",
+  "version": "1.0.0",
+  "description": "My own Discord bot for requesting images from Image APIs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy-commands": "node deploy-commands.js",
+    "start": "node ."
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "anime",
+    "api",
+    "images"
+  ],
+  "author": "awli",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "undici": "^5.15.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0"
+  }
+}
